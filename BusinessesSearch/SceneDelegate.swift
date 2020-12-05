@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  BusinessesSearch
 //
-//  Created by test on 12/4/20.
+//  Created by Sharaf Nazaar on 12/4/20.
 //
 
 import UIKit

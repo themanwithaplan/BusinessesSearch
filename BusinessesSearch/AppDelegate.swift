@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BusinessesSearch
 //
-//  Created by test on 12/4/20.
+//  Created by Sharaf Nazaar on 12/4/20.
 //
 
 import UIKit
@@ -10,8 +10,6 @@ import CoreData
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
