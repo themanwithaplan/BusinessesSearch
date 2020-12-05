@@ -10,7 +10,6 @@
 		52AA3113257B40C200D3B01B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA3112257B40C200D3B01B /* AppDelegate.swift */; };
 		52AA3115257B40C200D3B01B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA3114257B40C200D3B01B /* SceneDelegate.swift */; };
 		52AA311A257B40C200D3B01B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AA3118257B40C200D3B01B /* Main.storyboard */; };
-		52AA311D257B40C200D3B01B /* BusinessesSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52AA311B257B40C200D3B01B /* BusinessesSearch.xcdatamodeld */; };
 		52AA311F257B40C300D3B01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AA311E257B40C300D3B01B /* Assets.xcassets */; };
 		52AA3122257B40C300D3B01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AA3120257B40C300D3B01B /* LaunchScreen.storyboard */; };
 		52AA3130257B413800D3B01B /* BusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AA312F257B413800D3B01B /* BusinessCell.xib */; };
@@ -23,6 +22,7 @@
 		52AA3149257B442100D3B01B /* BusinessDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA3148257B442100D3B01B /* BusinessDetailsViewController.swift */; };
 		52AA314D257B459500D3B01B /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA314C257B459500D3B01B /* HTTPHeader.swift */; };
 		52AA3150257B45D600D3B01B /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AA314F257B45D600D3B01B /* RequestError.swift */; };
+		52AA315B257B8FE700D3B01B /* BusinessesSearch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52AA3159257B8FE700D3B01B /* BusinessesSearch.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,6 @@
 		52AA3112257B40C200D3B01B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52AA3114257B40C200D3B01B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		52AA3119257B40C200D3B01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52AA311C257B40C200D3B01B /* BusinessesSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessesSearch.xcdatamodel; sourceTree = "<group>"; };
 		52AA311E257B40C300D3B01B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52AA3121257B40C300D3B01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52AA3123257B40C300D3B01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +43,7 @@
 		52AA3148257B442100D3B01B /* BusinessDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailsViewController.swift; sourceTree = "<group>"; };
 		52AA314C257B459500D3B01B /* HTTPHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeader.swift; sourceTree = "<group>"; };
 		52AA314F257B45D600D3B01B /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
+		52AA315A257B8FE700D3B01B /* BusinessesSearch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BusinessesSearch.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +87,7 @@
 				52AA311E257B40C300D3B01B /* Assets.xcassets */,
 				52AA3120257B40C300D3B01B /* LaunchScreen.storyboard */,
 				52AA3123257B40C300D3B01B /* Info.plist */,
-				52AA311B257B40C200D3B01B /* BusinessesSearch.xcdatamodeld */,
+				52AA3159257B8FE700D3B01B /* BusinessesSearch.xcdatamodeld */,
 			);
 			path = BusinessesSearch;
 			sourceTree = "<group>";
@@ -210,8 +210,8 @@
 				52AA3115257B40C200D3B01B /* SceneDelegate.swift in Sources */,
 				52AA3150257B45D600D3B01B /* RequestError.swift in Sources */,
 				52AA314D257B459500D3B01B /* HTTPHeader.swift in Sources */,
-				52AA311D257B40C200D3B01B /* BusinessesSearch.xcdatamodeld in Sources */,
 				52AA3146257B43B800D3B01B /* AppKeyValues.swift in Sources */,
+				52AA315B257B8FE700D3B01B /* BusinessesSearch.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +417,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		52AA311B257B40C200D3B01B /* BusinessesSearch.xcdatamodeld */ = {
+		52AA3159257B8FE700D3B01B /* BusinessesSearch.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				52AA311C257B40C200D3B01B /* BusinessesSearch.xcdatamodel */,
+				52AA315A257B8FE700D3B01B /* BusinessesSearch.xcdatamodel */,
 			);
-			currentVersion = 52AA311C257B40C200D3B01B /* BusinessesSearch.xcdatamodel */;
+			currentVersion = 52AA315A257B8FE700D3B01B /* BusinessesSearch.xcdatamodel */;
 			path = BusinessesSearch.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
