@@ -2,7 +2,6 @@ Download and open the BusinessesSearch.xcodeproj to run the app
 
 Change the variables from *AppKeyValues.swift* file as required
 
--**customHost** - the api host
 - customAPIKey   : the APIKey for the Yelp Fusion API
 - customRadius   : the radius for businesses search results near user
 - customHost     : the api host
